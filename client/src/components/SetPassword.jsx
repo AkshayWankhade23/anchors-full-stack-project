@@ -36,7 +36,7 @@ const SetPassword = () => {
     try {
         const email = localStorage.getItem('email');
       // Add your backend endpoint for handling password setup
-      const response = await axios.post('http://localhost:3000/set-password', {
+      const response = await axios.post('https://anchors-full-stack-project-1.onrender.com/set-password', {
         email,
         password,
       });
