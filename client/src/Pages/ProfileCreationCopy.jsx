@@ -60,7 +60,7 @@ const ProfileCreation = () => {
 
   const handleFormSubmit = async () => {
     try {
-      const backendEndpoint = "http://localhost:3000/new-profile";
+      const backendEndpoint = "https://anchors-full-stack-project-1.onrender.com/new-profile";
 
       const response = await axios.post(backendEndpoint, formData, {
         headers: {
